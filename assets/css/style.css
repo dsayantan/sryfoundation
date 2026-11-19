@@ -318,3 +318,8 @@ html, body { overflow-x: clip; }
 .people.trustees h3 { font-size: 1.25rem; }
 @media (max-width: 900px) { .people.trustees { grid-template-columns: repeat(2, 1fr); } }
 .strip img { object-position: center 20%; }
+/* Background-removed portraits in page headers */
+.page-hero .portrait.cutout {
+  mix-blend-mode: normal; width: auto; height: auto; max-height: 360px; max-width: 100%;
+  margin-top: 30px; filter: grayscale(1) contrast(1.08) drop-shadow(0 10px 30px rgba(0,0,0,.35));
+}
