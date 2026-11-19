@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery · Sitaram Yechury Foundation</title>
+  <meta name="description" content="A photographic archive of Sitaram Yechury's life — from JNU to Parliament, Party Congresses to international solidarity.">
+  <meta name="theme-color" content="#0b0b0b">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Sitaram Yechury Foundation — home"><img src="assets/img/logo-horizontal.jpg" alt="Sitaram Yechury Foundation" width="900" height="278"></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">The Foundation</a>
+      <a href="life.html">Life &amp; Legacy</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+      <a class="btn" href="events.html">Events</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="text">
+        <span class="eyebrow">Photo Archive</span>
+        <h1>Five decades in <em>pictures</em></h1>
+        <p>From the student movement to Parliament, from Party Congresses to solidarity with peoples across the world. Select a photograph to view it in full.</p>
+      </div>
+      <img class="portrait" src="assets/thumbs/young-sry-1.jpg" alt="">
+    </div>
+  </div>
+
+  <section class="section-paper">
+    <div class="wrap">
+      <div class="filters" id="gallery-filters" role="toolbar" aria-label="Filter photographs"></div>
+      <div class="masonry" id="gallery-grid"></div>
+      <noscript><p class="center">Please enable JavaScript to view the gallery.</p></noscript>
+      <p class="center muted mt-2" style="font-size:.85rem">Photographs courtesy of the Sitaram Yechury Foundation archive, Deshabhimani, Ganashakti and photographers including Amit and Shekhar Yadav. Some captions are approximate — corrections are welcome.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div>
+      <img class="logo" src="assets/img/logo-horizontal.jpg" alt="Sitaram Yechury Foundation" loading="lazy">
+      <p>Carrying forward a life of study, struggle and solidarity.</p>
+      <p><strong style="color:#fff">Prof Prabhat Patnaik</strong>, Chairman<br><strong style="color:#fff">Seema Chishti</strong>, Secretary</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="about.html">The Foundation</a></li>
+        <li><a href="life.html">Life &amp; Legacy</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get in Touch</h4>
+      <p>Sitaram Yechury Foundation<br>Kolkata, West Bengal, India</p>
+      <!-- TODO: add the Foundation's email address / phone / social links here -->
+    </div>
+  </div>
+  <div class="wrap bottom">
+    <span>&copy; <span data-year>2026</span> Sitaram Yechury Foundation</span>
+    <span>Socialism Is The Alternative</span>
+  </div>
+</footer>
+
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous">&#8249;</button>
+  <img src="data:," alt="">
+  <p></p>
+  <button class="lb-next" aria-label="Next">&#8250;</button>
+</div>
+
+<script src="assets/js/gallery-data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
