@@ -314,3 +314,7 @@ ul.aim-list { padding: 0; margin: 0; }
 .chapter.section-red { background: var(--red); }
 html, body { overflow-x: clip; }
 @media (max-width: 860px) { .photo-frame::before { inset: 14px -10px -14px 14px; } }
+.people.trustees { grid-template-columns: repeat(4, 1fr); max-width: none; margin-top: 40px; }
+.people.trustees h3 { font-size: 1.25rem; }
+@media (max-width: 900px) { .people.trustees { grid-template-columns: repeat(2, 1fr); } }
+.strip img { object-position: center 20%; }
