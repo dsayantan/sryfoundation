@@ -195,7 +195,7 @@ ul.aim-list { padding: 0; margin: 0; }
 
 .people { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; max-width: 760px; }
 .person { border-left: 3px solid var(--red); padding: 4px 0 4px 22px; }
-.person h3 { margin: 0; font-size: 1.6rem; }
+.person h3 { margin: 0; font-size: 1.25rem; }
 .person span { font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 @media (max-width: 560px) { .people { grid-template-columns: 1fr; } }
 
@@ -315,7 +315,6 @@ ul.aim-list { padding: 0; margin: 0; }
 html, body { overflow-x: clip; }
 @media (max-width: 860px) { .photo-frame::before { inset: 14px -10px -14px 14px; } }
 .people.trustees { grid-template-columns: repeat(4, 1fr); max-width: none; margin-top: 40px; }
-.people.trustees h3 { font-size: 1.25rem; }
 @media (max-width: 900px) { .people.trustees { grid-template-columns: repeat(2, 1fr); } }
 .strip img { object-position: center 20%; }
 /* Background-removed portraits in page headers */
