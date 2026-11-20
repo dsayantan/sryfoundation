@@ -35,3 +35,18 @@ Categories: `early`, `congress`, `movements`, `parliament`, `international`, `be
 
 ## To do
 - Add the Foundation's contact email / phone / social links (search for `TODO` in the HTML files).
+
+## Firebase Hosting
+
+The site can also be served from Firebase Hosting (project `sitaramyechurifoundation`).
+`firebase.json` serves the repository root as-is and leaves out `README.md`, dotfiles and the Firebase config.
+
+```sh
+npm install -g firebase-tools      # or: curl -sL https://firebase.tools | bash
+firebase login
+firebase projects:list             # confirm the Project ID matches .firebaserc
+firebase deploy --only hosting
+```
+
+The site is then live at `https://sitaramyechurifoundation.web.app`.
+Add a custom domain under **Firebase console → Hosting → Add custom domain**.
